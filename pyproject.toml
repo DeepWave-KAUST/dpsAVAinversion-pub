@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=65", "setuptools_scm[toml]", "wheel"]
+
+[project]
+name = "diffavoinv"
+description = "DPS AVO Inversion and editing"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "name", email = "francesco.brandolin@kaust.edu.sa" }]
+license = {text = "BSD 3-Clause License"}
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+# Keep only light, generic deps here
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "numba>=0.57",
+  "tqdm>=4.65",
+  "scikit-learn>=1.3",
+  "pylops>=2.0.0",
+  "segyio>=1.9",
+]
+dynamic = ["version"]
+
+# Heavy libs go to extras (install only when requested)
+[project.optional-dependencies]
+gpu = [
+  "torch==2.5.*",                # or omit entirely if always provided by conda
+  "pytorch-lightning==2.5.*",    # prefer explicit 'pytorch-lightning' name
+  "torchmetrics==1.7.*",
+]
+diffusion = [
+  "diffusers==0.33.*",
+  "safetensors>=0.5,<0.6",
+  "huggingface-hub>=0.31,<0.32",
+]
+
+[tool.setuptools.packages]
+find = {}

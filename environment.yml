@@ -1,0 +1,34 @@
+name: diffseisavo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - numba
+  - cupy
+  - cuda-version=11.8
+  - pylops
+  - pyproximal
+  - scikit-learn
+  - scikit-image
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchvision
+  - torchaudio
+  - lightning
+  - ipython
+  - jupyter
+  - torchinfo
+  - diffusers
+  - datasets
+  - accelerate # not tested the env installation after this addition, in case of conflicts remove accelerate from list and install it separately after env installation
+  - h5py # not tested the env installation after this addition, in case of conflicts remove accelerate from list and install it separately after env installation
+  - pip:
+    - segyio

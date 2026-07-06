@@ -1,0 +1,35 @@
+# OS generated files #
+.*.swp
+*.py[cod]
+__pycache__/
+*.nbc
+*.nbi
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/*
+static/*
+db.sqlite3
+
+# Build #
+build
+dist
+package.egg-info/
+diffavoinv.egg-info/
+
+# setuptools_scm generated  #
+package/version.py 
+
+# Development #
+.ipynb_checkpoints/
+data/
+!data/
+!data/sample_for_initial_test/
+!data/field_data/
+!data/field_data/**
+data/checkpoints/
+data/datah5/
