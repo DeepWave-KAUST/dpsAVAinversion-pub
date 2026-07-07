@@ -18,6 +18,7 @@ The following notebooks are provided:
 - :orange_book: ``avo_inversion_guided_ddim.ipynb``: notebook performing DPS based AVO Inversion and editing;
 - :orange_book: ``dataset_avo.ipynb``: notebook performing training data and unconditional samples visulization;
 - :orange_book: ``field_avo_inversion_guided_ddim_UQ.ipynb``: notebook performing DPS based avo inversion on field data and uncertanity quantification;
+Note - to run the notebook, please download the trained model weights from the [checkpoints](https://kaust-my.sharepoint.com/personal/dixita_kaust_edu_sa/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdixita%5Fkaust%5Fedu%5Fsa%2FDocuments%2Fcheckpoints&ga=1) folder
 
 
 ## Getting started :space_invader: :robot:
