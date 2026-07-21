@@ -50,8 +50,8 @@ configurations may be required for different combinations of workstation and GPU
 
 ## Cite us 
 ```bibtex
-@misc{dixit2026guided,
-  title        = {Guided Diffusion Posterior Sampling for Elastic Parameter Inversion with Angle-Stack Seismic Data},
+@misc{dixit2026estimation,
+  title        = {Estimation of Elastic Parameters with Guidance-based Diffusion model},
   author       = {Dixit, Anjali and Brandolin, Francesco and Alkhalifah, Tariq},
   year         = {2026},
   eprint       = {2607.13207},
