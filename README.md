@@ -49,5 +49,14 @@ pip install -e .
 configurations may be required for different combinations of workstation and GPU.
 
 ## Cite us 
-DW0127 - Dixit A., Brandolin F., Alkhalifah T. (2026) Guided Diffusion Posterior Sampling for Elastic Parameter Inversion with Angle-Stack Seismic Data.
+@misc{dixit2026estimation,
+  title        = {Estimation of Elastic Parameters with Guidance-based Diffusion model},
+  author       = {Dixit, Anjali and Brandolin, Francesco and Alkhalifah, Tariq},
+  year         = {2026},
+  eprint       = {2607.13207},
+  archivePrefix = {arXiv},
+  primaryClass = {physics.geo-ph},
+  doi          = {10.48550/arXiv.2607.13207},
+  url          = {https://arxiv.org/abs/2607.13207}
+}
 
