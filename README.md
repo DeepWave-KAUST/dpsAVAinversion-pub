@@ -49,8 +49,9 @@ pip install -e .
 configurations may be required for different combinations of workstation and GPU.
 
 ## Cite us 
-@misc{dixit2026estimation,
-  title        = {Estimation of Elastic Parameters with Guidance-based Diffusion model},
+```bibtex
+@misc{dixit2026guided,
+  title        = {Guided Diffusion Posterior Sampling for Elastic Parameter Inversion with Angle-Stack Seismic Data},
   author       = {Dixit, Anjali and Brandolin, Francesco and Alkhalifah, Tariq},
   year         = {2026},
   eprint       = {2607.13207},
@@ -59,4 +60,5 @@ configurations may be required for different combinations of workstation and GPU
   doi          = {10.48550/arXiv.2607.13207},
   url          = {https://arxiv.org/abs/2607.13207}
 }
+```
 
